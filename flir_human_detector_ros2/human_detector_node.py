@@ -4,7 +4,7 @@ from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
 import cv2
 
-from flir_lepton_human_detector.human_detector import HumanDetector
+from flir_human_detector_ros2.human_detector import HumanDetector
 
 
 class HumanDetectionNode(Node):
