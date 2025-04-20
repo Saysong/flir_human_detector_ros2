@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'human_detector_node = flir_human_detector.human_detector_node:main',
+            'human_detector_node = flir_human_detector_ros2.human_detector_node:main',
 
         ],
     },
